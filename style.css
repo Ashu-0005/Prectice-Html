@@ -1,47 +1,136 @@
-H1{
-    text-align: center;
-    color: blueviolet;
+    H1 {
+        text-align: center;
+        color: blueviolet;
 
-}
-
-
-.center {
-    text-align: center;
-    color:rgb(0, 100, 255)
-}
-
-#nnn{
-    text-align: center;
-    color: hsl(100, 100%, 20%);
-font-size: 16px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- }
-
-.A,.B{
-    color: #ff00ff;   
-}
-
-body{
-    text-align: center;
-    background-color: hsla(220, 100%, 50%,)
-
-}
-
-#Google{
-    padding: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
-    background-color :rgba(0, 0, 42, 1);
-    color: aliceblue;
-    margin: 10px;
-    border-radius: 15px;
-    border: 4px solid rgb(38, 37, 41);
     }
 
-    .Gmail{
+
+    .center {
+        text-align: center;
+        color: rgb(0, 100, 255)
+    }
+
+    #nnn {
+        text-align: center;
+        color: hsl(100, 100%, 20%);
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .A,
+    .B {
+        color: #ff00ff;
+    }
+
+    body {
+        text-align: center;
+        background-color: hsla(220, 100%, 50%, )
+    }
+
+    #Google {
+        padding: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: rgba(0, 0, 42, 1);
+        color: aliceblue;
+        margin: 10px;
+        border-radius: 15px;
+        border: 4px solid rgb(38, 37, 41);
+    }
+
+    .Gmail {
         color: aliceblue;
         background-color: rgb(60, 60, 60);
         padding: 4px;
         border-radius: 5px;
-        gr
+
+    }
+
+    .mmm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(16, 16, 16);
+        height: 100vh;
+    }
+
+    .nnn {
+        position: relative;
+        border: 2px solid whitesmoke;
+        padding: 2rem 5rem;
+        text-decoration: none;
+        color: aqua;
+        transition: all 1s;
+        overflow: hidden;
+
+    }
+
+    .nnn::before {
+        position: absolute;
+        content: "Download";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transform: translateX(-100%);
+        transition: all 1s;
+        background: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nnn:hover::before {
+        transform: translateX(0);
+    }
+
+
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: aqua;
+        border-radius: 10px;
+
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: antiquewhite;
+    }
+
+    .SEC{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+        height: 100vh;
+    }
+    
+    table,td,th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding-inline-start: 20px ;
+       border-style: double;
+        
+
+    }
+
+    th{
+        width: 70%;
+    }
+
+
+    .nj{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    iframe{
+        height: 500px;
+        width: 100%;
     }
